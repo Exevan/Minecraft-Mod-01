@@ -1,0 +1,11 @@
+package com.Exevan.Mod_01.util;
+
+import org.apache.logging.log4j.Level;
+
+public class LogUtil {
+	
+	public static void log(Level logLevel, Object o) {
+		
+	}
+
+}

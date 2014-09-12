@@ -7,7 +7,7 @@
 <listEntry value="4"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.minecraft.launchwrapper.Launch"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--version 1.7 --tweakClass cpw.mods.fml.common.launcher.FMLTweaker cpw.mods.fml.common.launcher.FMLTweaker --username=ForgeDevName --accessToken FML --userProperties={}"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--version 1.7 --tweakClass cpw.mods.fml.common.launcher.FMLTweaker cpw.mods.fml.common.launcher.FMLTweaker --username=ForgeDevName --accessToken FML --userProperties={} --assetIndex 1.7.10 --assetsDir C:\Users\Exevan\.gradle\caches\minecraft\assets"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Minecraft"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xincgc -Xmx1024M -Xms1024M -Dfml.ignoreInvalidMinecraftCertificates=true"/>
 <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc}"/>

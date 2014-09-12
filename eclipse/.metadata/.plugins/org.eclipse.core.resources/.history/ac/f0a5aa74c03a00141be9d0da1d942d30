@@ -1,0 +1,5 @@
+When updating to forge for minecraft 1.7.10, don't forget to change the following:
+    in      "\<project folder>\eclipse\.metadata\.plugins\org.eclipse.debug.core\.launches\Client.launch"
+    change  <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--version 1.6 --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --accessToken FML"/>
+    to      <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--version 1.7 --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --username=ForgeDevName --accessToken FML --userProperties={}"/>
+and in mcmod.info change "authors" to "authorList".   

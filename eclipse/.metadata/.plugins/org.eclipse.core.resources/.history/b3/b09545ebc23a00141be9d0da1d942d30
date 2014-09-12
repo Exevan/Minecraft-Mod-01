@@ -1,0 +1,5 @@
+package com.Exevan.Mod_01.client.gui;
+
+public class ModGuiConfig extends GuiConfig{
+
+}

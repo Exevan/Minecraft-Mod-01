@@ -1,0 +1,8 @@
+# Configuration file
+
+general {
+    # test config value
+    I:value=10
+}
+
+

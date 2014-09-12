@@ -1,0 +1,29 @@
+package com.Exevan.Mod_01.config;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigHandler {
+	
+	public static Configuration config;
+	
+	public static void init(File configFile) {
+		
+		config = new Configuration(configFile);
+		
+		int value = 0;
+		
+		try {
+			config.load();
+			value = config.get(Configuration.CATEGORY_GENERAL, "value", 10, "test config value").getInt(10);
+		} catch(Exception e) {
+			
+		} finally {
+			if (config.hasChanged())
+				config.save();
+		}
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.Exevan.Mod_01.util;
+
+import org.apache.logging.log4j.Level;
+
+import cpw.mods.fml.common.FMLLog;
+
+public class LogUtil {
+	
+	public void log(Level level, Object o) {
+		FMLLog.log(level, o);
+	}
+
+}

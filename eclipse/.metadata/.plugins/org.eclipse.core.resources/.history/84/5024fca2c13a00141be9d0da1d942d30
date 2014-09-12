@@ -1,0 +1,54 @@
+package com.Exevan.Mod_01.handlers;
+
+import java.io.File;
+
+import com.Exevan.Mod_01.reference.Reference;
+
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigHandler {
+	
+	public static Configuration config;
+	
+	public static void init(File configFile) {
+		
+		
+		config = new Configuration(configFile);
+		
+		int value = 0;
+		
+		try {
+			
+			//Load config file
+			config.load();
+			
+			//Read config value
+			value = config.get(Configuration.CATEGORY_GENERAL, "value", 10, "test config value").getInt(10);
+		
+		} catch(Exception e) {
+			
+			//Log config errors
+			
+		} finally {
+			
+			//Save config file
+			if (config.hasChanged())
+				config.save();
+		}
+		
+	}
+	
+	@SubscribeEvent
+	public void onConfigChangedEvent(ConfigChangedEvent e) {
+		
+		if(e.modID.equalsIgnoreCase(Reference.MODID)) {
+			
+			//Resynch config
+			
+		}
+			
+	}
+
+}
