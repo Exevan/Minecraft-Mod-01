@@ -1,0 +1,8 @@
+package com.Exevan.Mod_01;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid= "Mod_01", name= "Mod 01", version= "1.7.2-1.0")
+public class Mod_01 {
+
+}

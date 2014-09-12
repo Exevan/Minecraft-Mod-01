@@ -1,0 +1,17 @@
+[
+{
+"modid": "",
+"name": ",
+"description": "",
+"version": "",
+"credits": "",
+"logoFile": "",
+"mcversion": "",
+"url": "",
+"updateUrl": "",
+"authors": [  ],
+"parent":"",
+"screenshots": [],
+"dependencies": [ "mod_MinecraftForge" ]
+}
+]

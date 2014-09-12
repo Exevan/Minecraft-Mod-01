@@ -1,0 +1,9 @@
+package com.Exevan.Mod_01.config;
+
+public class ConfigHandler {
+	
+	public static void init(File configFile) {
+		
+	}
+
+}

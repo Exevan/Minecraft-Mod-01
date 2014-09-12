@@ -1,0 +1,36 @@
+package com.Exevan.Mod_01;
+
+import com.Exevan.Mod_01.proxy.IProxy;
+import com.Exevan.Mod_01.reference.Reference;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid= Reference.MODID, name= Reference.MOD_NAME, version= Reference.VERSION)
+public class Mod_01 {
+	
+	@Mod.Instance("Mod_01")
+	public static Mod_01 mod;
+	
+	@SidedProxy(clientSide= "com.Exevan.Mod_01.proxy.ClientProxy", serverSide= "com.Exevan.Mod_01.proxy.ServerProxy")
+	public static IProxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent e) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent e) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent e) {
+		
+	}
+
+}

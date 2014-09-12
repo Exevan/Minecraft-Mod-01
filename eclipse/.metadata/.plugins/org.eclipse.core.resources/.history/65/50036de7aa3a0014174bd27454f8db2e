@@ -1,0 +1,17 @@
+[
+{
+"modid": "Mod_01",
+"name": "Mod 01",
+"description": "",
+"version": "1.7.2-1.0",
+"credits": "",
+"logoFile": "",
+"mcversion": "",
+"url": "",
+"updateUrl": "",
+"authors": [ Exevan ],
+"parent":"",
+"screenshots": [],
+"dependencies": [ "mod_MinecraftForge" ]
+}
+]

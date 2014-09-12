@@ -1,0 +1,29 @@
+package com.Exevan.Mod_01;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid= "Mod_01", name= "Mod 01", version= "1.7.2-1.0")
+public class Mod_01 {
+	
+	@Mod.Instance("Mod_01")
+	public static Mod_01 mod;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent e) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent e) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent e) {
+		
+	}
+
+}
