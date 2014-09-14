@@ -1,0 +1,13 @@
+package com.Exevan.Mod_01.item;
+
+import com.Exevan.Mod_01.reference.Reference;
+
+public class ItemTest extends ItemMod_01 {
+
+	public ItemTest() {
+		super();
+		this.setUnlocalizedName("itemTest");
+		this.setTextureName(Reference.MODID + ":itemTest");
+	}
+	
+}

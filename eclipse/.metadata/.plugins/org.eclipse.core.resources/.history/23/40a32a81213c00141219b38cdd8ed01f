@@ -1,0 +1,5 @@
+package com.exevan.mod_01.block;
+
+public class BlockTest extends BlockMod_01 {
+
+}

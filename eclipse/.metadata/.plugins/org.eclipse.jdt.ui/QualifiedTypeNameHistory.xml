@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.EventHandler"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInitializationEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.Instance"/>
 <fullyQualifiedTypeName name="com.Exevan.Mod_01.proxy.CommonProxy"/>
 <fullyQualifiedTypeName name="com.Exevan.Mod_01.proxy.IProxy"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
-<fullyQualifiedTypeName name="com.Exevan.Mod_01.reference.Reference"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
 <fullyQualifiedTypeName name="com.Exevan.Mod_01.config.ConfigHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.ConfigElement"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.config.GuiConfig"/>
+<fullyQualifiedTypeName name="com.Exevan.Mod_01.client.gui.ModGuiConfig"/>
+<fullyQualifiedTypeName name="com.Exevan.Mod_01.util.LogUtil"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Level"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLLog"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLCommonHandler"/>
+<fullyQualifiedTypeName name="com.Exevan.Mod_01.handlers.ConfigHandler"/>
+<fullyQualifiedTypeName name="com.Exevan.Mod_01.item.ItemMod_01"/>
+<fullyQualifiedTypeName name="com.Exevan.Mod_01.item.ItemTest"/>
+<fullyQualifiedTypeName name="init.ModItems"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
+<fullyQualifiedTypeName name="com.Exevan.Mod_01.reference.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.util.IIcon"/>
+<fullyQualifiedTypeName name="com.exevan.mod_01.block.BlockMod_01"/>
+<fullyQualifiedTypeName name="com.exevan.mod_01.block.BlockTest"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.exevan.mod_01.init.ModBlocks"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry.ObjectHolder"/>
+<fullyQualifiedTypeName name="com.exevan.mod_01.reference.Reference"/>
 </qualifiedTypeNameHistroy>

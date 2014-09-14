@@ -1,0 +1,17 @@
+package com.exevan.mod_01.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockMod_01 extends Block {
+
+	public BlockMod_01(Material material) {
+		super(material);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public BlockMod_01() {
+		this(Material.rock);
+	}
+
+}

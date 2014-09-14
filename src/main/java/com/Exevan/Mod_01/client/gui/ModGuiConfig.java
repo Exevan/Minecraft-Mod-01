@@ -1,9 +1,9 @@
-package com.Exevan.Mod_01.client.gui;
+package com.exevan.mod_01.client.gui;
 
 import java.util.List;
 
-import com.Exevan.Mod_01.handlers.ConfigHandler;
-import com.Exevan.Mod_01.reference.Reference;
+import com.exevan.mod_01.handlers.ConfigHandler;
+import com.exevan.mod_01.reference.Reference;
 
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;

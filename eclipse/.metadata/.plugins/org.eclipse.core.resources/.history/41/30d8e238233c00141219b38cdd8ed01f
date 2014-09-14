@@ -1,0 +1,16 @@
+package com.exevan.mod_01.init;
+
+import com.exevan.mod_01.block.BlockMod_01;
+import com.exevan.mod_01.block.BlockTest;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModBlocks {
+	
+	public static final BlockMod_01 test = new BlockTest();
+	
+	public static void init() {
+		GameRegistry.registerBlock(test, "blockTest");
+	}
+
+}

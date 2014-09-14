@@ -1,0 +1,9 @@
+package com.exevan.mod_01.init;
+
+import com.exevan.mod_01.block.BlockMod_01;
+
+public class ModBlocks {
+	
+	public static BlockMod_01 test = new BlockTest();
+
+}

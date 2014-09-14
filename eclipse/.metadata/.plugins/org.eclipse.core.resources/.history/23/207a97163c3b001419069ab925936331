@@ -1,0 +1,7 @@
+package com.Exevan.Mod_01.item;
+
+import net.minecraft.item.Item;
+
+public class Item_Mod_01 extends Item {
+
+}

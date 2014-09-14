@@ -1,0 +1,53 @@
+package com.exevan.mod_01.block;
+
+import com.exevan.mod_01.reference.Reference;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.ItemStack;
+
+public class BlockMod_01 extends Block {
+
+	public BlockMod_01(Material material) {
+		super(material);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public BlockMod_01() {
+		this(Material.rock);
+	}
+	
+	@Override
+	public String getUnlocalizedName() {
+		
+		String unlocalizedName = String.format("tile.%s%s", Reference.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return unlocalizedName;
+				
+	}
+	
+	@Override
+	public String getUnlocalizedName(ItemStack itemStack) {
+		
+		return String.format("tile.%s%s", Reference.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+
+	}
+	
+	@Override
+	@SideOnly(Side.CLIENT)
+	public void registerBlockIcons(IIconRegister iconRegister) {
+		
+		IIcon icon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
+		blockIcon = 
+		
+	}
+	
+	protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
+		
+		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+		
+	}
+
+}

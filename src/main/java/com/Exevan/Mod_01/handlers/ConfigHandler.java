@@ -1,8 +1,8 @@
-package com.Exevan.Mod_01.handlers;
+package com.exevan.mod_01.handlers;
 
 import java.io.File;
 
-import com.Exevan.Mod_01.reference.Reference;
+import com.exevan.mod_01.reference.Reference;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;

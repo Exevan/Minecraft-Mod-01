@@ -1,0 +1,17 @@
+package init;
+
+import com.exevan.mod_01.item.ItemMod_01;
+import com.exevan.mod_01.item.ItemTest;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModItems {
+	
+	public static final ItemMod_01 test = new ItemTest();
+	
+	
+	public static void init() {
+		GameRegistry.registerItem(test, "itemTest");
+	}
+
+}

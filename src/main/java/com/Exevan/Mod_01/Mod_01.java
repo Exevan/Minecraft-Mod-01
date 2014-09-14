@@ -1,10 +1,12 @@
-package com.Exevan.Mod_01;
+package com.exevan.mod_01;
 
 import net.minecraftforge.common.config.Configuration;
 
-import com.Exevan.Mod_01.handlers.ConfigHandler;
-import com.Exevan.Mod_01.proxy.IProxy;
-import com.Exevan.Mod_01.reference.Reference;
+import com.exevan.mod_01.handlers.ConfigHandler;
+import com.exevan.mod_01.init.ModBlocks;
+import com.exevan.mod_01.init.ModItems;
+import com.exevan.mod_01.proxy.IProxy;
+import com.exevan.mod_01.reference.Reference;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.FMLLog;
@@ -27,6 +29,8 @@ public class Mod_01 {
 	public void preInit(FMLPreInitializationEvent e) {
 		ConfigHandler.init(e.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigHandler());
+		ModItems.init();
+		ModBlocks.init();
 		FMLLog.info("PreInit complete!");
 	}
 	
